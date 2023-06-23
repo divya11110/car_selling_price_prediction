@@ -16,13 +16,14 @@ random_forest_regression_model.pkl: This is a pickled version of the trained Ran
 StandardScaler: This class from scikit-learn is used to perform feature scaling on the input data.
 The application accepts input for the following features:
 
-Year: The year of the car. /n
+Year: The year of the car.
 Present_Price: The current market price of the car.
 Kms_Driven: The total kilometers driven by the car.
 Owner: The number of previous owners of the car.
 Fuel_Type: The type of fuel used by the car (Petrol, Diesel, or CNG).
 Seller_Type: The type of seller (Individual or Dealer).
 Transmission: The type of transmission (Manual or Automatic).
+
 Once the user submits the form, the input is processed by the Flask application. The categorical features are encoded appropriately, and the numerical features are scaled using the StandardScaler object. The preprocessed input is then passed to the trained model, which generates a prediction for the selling price. The prediction is displayed on the webpage.
 
 If the predicted price is negative, the application displays a message stating that the car cannot be sold.
