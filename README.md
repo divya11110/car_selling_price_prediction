@@ -16,7 +16,7 @@ random_forest_regression_model.pkl: This is a pickled version of the trained Ran
 StandardScaler: This class from scikit-learn is used to perform feature scaling on the input data.
 The application accepts input for the following features:
 
-Year: The year of the car.
+Year: The year of the car. /n
 Present_Price: The current market price of the car.
 Kms_Driven: The total kilometers driven by the car.
 Owner: The number of previous owners of the car.
